@@ -1,25 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sf-mono');
+
+@font-face {
+    font-family: Calibre-Regular;
+    src: url('fonts/CalibreRegular.otf');
+}
+
+@font-face {
+    font-family: Calibre-Medium;
+    src: url('fonts/CalibreMedium.otf');
+}
+
+@font-face {
+    font-family: Calibre-Bold;
+    src: url('fonts/CalibreBold.otf');
+}
 
 :root {
     --color-body: #b6cbce;
-    --color-heading: #eef3db;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #e0f780;
+    --color-heading: #CCD6F6;
+    --color-special: #64FFDA;
+    /* --color-base: #033f47; */ /*  Navbar, Social icons, form, cards BG color */
+    --color-base: #0B192F;
+    /* --color-base2: #022a30; */ /* Main BG color */
+    --color-base2: #0B192F;
+    /* --color-brand: #e0f780; */ /* Font Color */
+    --color-brand: #DDE6ED;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
-    --font-base: "Bai Jamjuree";
+    /* --font-base: "Bai Jamjuree"; */
+    --font-base: "Poppins";
+}
+
+/* ==== Introduction Section ===== */
+#introText {
+    font-family: 'SF Mono';
+    font-weight: regular;
+    font-size: 1.2rem;
+    color: var(--color-special);
+    padding-bottom: 20px;
+}
+
+#name {
+    font-size: 80px;
+    line-height: 80%;
+}
+
+#nameDescr {
+    font-size: 60px;
+    line-height: 100%;
+    color: #8892B1;
+}
+
+.lead {
+    font-family: Calibre-Regular;
+    color: #8892B1
 }
 
 body {
     background-color: var(--color-base2);
     color: var(--color-body);
-    font-family: var(--font-base), sans-serif;
+    /* font-family: var(--font-base), sans-serif; */
+    font-family: Calibre-Medium;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: var(--color-heading);
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 a {
@@ -37,6 +85,8 @@ img {
 }
 
 .text-brand {
+    font-family: 'SF Mono';
+    font-weight: regular;
     color: var(--color-brand);
 }
 
@@ -53,6 +103,17 @@ img {
     padding-top: 80px;
     padding-bottom: 80px;
     border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+
+.smaller-height {
+    min-height: 50vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1); 
 }
 
 .shadow-effect {
@@ -80,24 +141,34 @@ img {
 }
 
 .navbar .nav-link {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #fff;
+    font-family: 'SF Mono';
+    font-weight: 400;
+    color: var(--color-body);
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+    color: var(--color-special);
 }
 
 .navbar .nav-link.active {
-    color: var(--color-brand);
+    color: var(--color-special);
+}
+
+.nav-item a {
+    font-family: 'SF Mono';
+    font-weight: 400;
+    color: var(--color-body);
+}
+
+.nav-item a:hover {
+    color: var(--color-special);
 }
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        /* background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg); */
         background-size: cover;
         background-position: center;
     }
@@ -112,27 +183,33 @@ img {
     }
 }
 
+#navName {
+    padding-top: 15px;
+    font-family: 'SF Mono';
+    font-weight: regular;
+    color: var(--color-body);
+}
+
 /* BTN */
 .btn {
     padding: 12px 28px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .btn-brand {
-    background-color: var(--color-brand);
-    border-color: var(--color-brand);
-    color: var(--color-base);
+    border-color: var(--color-special);
+    color: var(--color-special);
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
-    background-color: var(--color-brand2);
+    background-color: var(--color-special);
     color: var(--color-base);
-    border-color: var(--color-brand2);
+    border-color: var(--color-special);
 }
 
 .link-custom {
-    font-weight: 700;
+    font-weight: 500;
     position: relative;
 }
 
@@ -166,7 +243,7 @@ img {
 
 /* CONTACT */
 #contact .form-control {
-    background-color: var(--color-base);
+    background-color: #303F5B;
     border-color: var(--color-base);
     color: var(--color-body);
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jon Carter UI/UX Designer</title>
+    <title>Santiago Aguirre</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
@@ -18,8 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Jon Carter</span>
-                <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="">
+                <span id="navName" class="h3 d-block d-lg-none">Santiago Aguirre</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,19 +31,13 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#services">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#reviews">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#about">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -64,14 +57,26 @@
 
             <div class="container">
                 <div class="row">
+                    <div class="col">
+                        <p id="introText" data-aos="fade-up">Hi, my name is</p>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-10">
-                        <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">UI/UX
-                                DESIGNER</span> FROM LONDON, UK</h1>
-                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am John Doe, And I craft
-                            high-performing and delightful experiences tailored and conversion-focused</p>
+                        <h1 id="name" class="display-4" data-aos="fade-up">
+                            Santiago Aguirre.
+                        </h1>
+                        <h1 id="nameDescr" class="display-4" data-aos="fade-up">
+                            I'm a Creative Developer.
+                        </h1>
+                        <p id="introDescrText" class="lead mb-4" data-aos="fade-up" data-aos-delay="300">
+                            Technology passionate developing and designing digital products
+                            using web and mobile technologies. Currently open to new
+                            opportunities where I can apply my coding and design skills.
+                        </p>
                         <div data-aos="fade-up" data-aos-delay="600">
                             <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-                            <a href="#" class="link-custom">Call: (233) 3454 2342</a>
+                            <a href="#" class="link-custom">Send me a message at santiaguirregdc@gmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -80,66 +85,14 @@
         </section>
         <!-- //HOME -->
 
-        <!-- SERVICES -->
-        <section id="services" class="full-height px-lg-5">
-            <div class="container">
-
-                <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">SERVICES</h6>
-                        <h1>Services That I Provide</h1>
-                    </div>
-                </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-md-4" data-aos="fade-up">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-feather"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">UX Design</h5>
-                            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-pencil-ruler"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Branding</h5>
-                            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="service p-4 bg-base rounded-4 shadow-effect">
-                            <div class="iconbox rounded-4">
-                                <i class="las la-laptop-code"></i>
-                            </div>
-                            <h5 class="mt-4 mb-2">Web Designing</h5>
-                            <p>I craft high-performing and delightful experiences tailored and conversion-focused</p>
-                            <a href="#" class="link-custom">Read More</a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-        <!-- SERVICES -->
-
         <!-- WORK -->
         <section id="work" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
+                    <div class="col-lg-12 text-center">
                         <h6 class="text-brand">WORK</h6>
-                        <h1>My Recent Projects</h1>
+                        <h1>Some Things I've Built</h1>
                     </div>
                 </div>
 
@@ -148,12 +101,16 @@
                     <div class="col-md-6" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-1.jpg" alt="">
+                                <img class="rounded-4"
+                                    src="https://res.cloudinary.com/dfmdkmn8y/image/upload/f_auto/q_auto/v1689889232/RealAboutInstagram/ClimaGPTPoster_ir6kmb.png"
+                                    alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h4>ClimaGPT</h4>
+                                <p>An iOS app to request the weather of any city with a replicated UI design to that of
+                                    ChatGPT.</p>
+                                <a href="https://github.com/santidevhmo/ClimaGPT" class="link-custom">See project and
+                                    demo GIF on GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -161,12 +118,15 @@
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-2.png" alt="">
+                                <img class="rounded-4"
+                                    src="https://res.cloudinary.com/dfmdkmn8y/image/upload/f_auto/q_auto/v1689896655/RealAboutInstagram/realAboutInstaPoster_idhkzn.png"
+                                    alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h4>Real About Instagram</h4>
+                                <p>A replica of Instagram's About page showcasing their current harmful strategies used
+                                    on the platform and the negative impacts of social media.</p>
+                                <a href="https://realaboutinstagram.netlify.app" class="link-custom">Open Website</a>
                             </div>
                         </div>
                     </div>
@@ -174,12 +134,16 @@
                     <div class="col-md-6" data-aos="fade-up">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-3.png" alt="">
+                                <img class="rounded-4"
+                                    src="https://res.cloudinary.com/dfmdkmn8y/image/upload/f_auto/q_auto/v1689897984/RealAboutInstagram/VAKTestPoster_sefypv.png"
+                                    alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h4>VAK Test</h4>
+                                <p>iOS App with a 12 question quiz to learn your dominant learning style: Visual,
+                                    Auditory or Kinesthetic</p>
+                                <a href="https://www.linkedin.com/feed/update/urn:li:activity:6761327666755891200/"
+                                    class="link-custom">See LinkedIn post</a>
                             </div>
                         </div>
                     </div>
@@ -187,12 +151,15 @@
                     <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                         <div class="card-custom rounded-4 bg-base shadow-effect">
                             <div class="card-custom-image rounded-4">
-                                <img class="rounded-4" src="./assets/images/project-4.png" alt="">
+                                <img class="rounded-4"
+                                    src="https://res.cloudinary.com/dfmdkmn8y/image/upload/f_auto/q_auto/v1689899378/RealAboutInstagram/ArtChicagoPoster_jzujkr.png"
+                                    alt="">
                             </div>
                             <div class="card-custom-content p-4">
-                                <h4>Startup Landing Page</h4>
-                                <p>Innovation that exceeds expectations. Astra is a true template equiqed with all the elements you could ever need to put together</p>
-                                <a href="#" class="link-custom">Read More</a>
+                                <h4>The Art Institute of Chicago Artwork Searcher</h4>
+                                <p>A website that lets you search art available at the Art Institute of Chicago. Made
+                                    using the Art Institute of Chicago API, HTML, CSS, Bootstrap, and JavaScript.</p>
+                                <a href="https://codepen.io/desert-dev/pen/jOxpXPp" class="link-custom">Open Codepen</a>
                             </div>
                         </div>
                     </div>
@@ -202,92 +169,186 @@
         </section>
         <!-- //WORK -->
 
-        <!-- ABOUT -->
-        <section id="about" class="full-height px-lg-5">
+        <!-- SERVICES -->
+        <section id="services" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
-                    <div class="col-lg-8">
-                        <h6 class="text-brand">ABOUT</h6>
-                        <h1>My Education & Experiance</h1>
+                    <div class="col-lg-11 text-center">
+                        <h6 class="text-brand">SKILLS</h6>
+                        <h1>Services That I Provide</h1>
                     </div>
                 </div>
 
-                <div class="row gy-5">
-                    <div class="col-lg-6">
+                <div class="row gy-4">
 
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
-                        <div class="row gy-4">
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-pen-nib"></i>
                             </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Master of Software Engineering</h4>
-                                    <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
+                            <h5 class="mt-4 mb-2">Mobile & Web UX/UI Design</h5>
+                            <p>2+ years of experience creating user-centric designs for mobile and web applications</p>
+                            <a href="#" class="link-custom">Read More</a>
                         </div>
-
                     </div>
 
-                    <div class="col-lg-6">
-
-                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experiance</h3>
-                        <div class="row gy-4">
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-object-ungroup"></i>
                             </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
-                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
-                                <div class="bg-base p-4 rounded-4 shadow-effect">
-                                    <h4>Applications developer</h4>
-                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
-                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
-                                </div>
-                            </div>
-
+                            <h5 class="mt-4 mb-2">Graphic Design</h5>
+                            <p>3+ years of experience in graphic design work, blending creativity and strategic thinking
+                                to deliver visually captivating designs.</p>
+                            <a href="#" class="link-custom">Read More</a>
                         </div>
+                    </div>
 
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="lab la-apple"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">iOS Development</h5>
+                            <p>2+ years of experience developing and publishing iOS applications, including an
+                                internship.</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-laptop-code"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Web Development</h5>
+                            <p>Proficient in front-end technologies such as HTML, CSS, and JavaScript to create
+                                interactive and responsive web interfaces using version control systems like Git to
+                                manage and track changes</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-photo-video"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Video Editing</h5>
+                            <p>3+ years of experience developing in-depth knowledge and proficiency in Adobe Premiere
+                                Pro through dedicated practice and a genuine passion for video editing.</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4">
+                                <i class="las la-list-alt"></i>
+                            </div>
+                            <h5 class="mt-4 mb-2">Marketing Strategist</h5>
+                            <p>Worked on 3+ organizations as a Marketing Strategist, leveraging my expertise in crafting
+                                effective marketing campaigns and strategies while gaining valuable experience in
+                                diverse environments.</p>
+                            <a href="#" class="link-custom">Read More</a>
+                        </div>
                     </div>
 
                 </div>
 
             </div>
         </section>
+        <!-- SERVICES -->
+
+        <!-- ABOUT -->
+        <section id="about" class="smaller-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">RESUME</h6>
+                        <h1>My Education & Experience</h1>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+
+                        <div class="form-group col-12 d-grid">
+                            <button type="submit" class="btn btn-brand">Open Resume</button>
+                        </div>
+                        <!-- 
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Bachelor of Science in Digital Business Transformation</h4>
+                                    <p class="text-brand mb-2">
+                                        Instituto Tecnológico de Monterrey (2020 - 2024)
+                                    </p>
+                                    <a href="https://tec.mx/es/computacion-y-tecnologias-de-informacion/ingeniero-en-transformacion-digital-de-negocios" class="link-custom">
+                                        Learn more about this degree
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>International Experience in Uppsala, Sweden</h4>
+                                    <p class="text-brand mb-2">Uppsala University (2023 - 2024)</p>
+                                    <a href="https://www.topuniversities.com/universities/uppsala-university" class="link-custom">
+                                        Ranked #105 in the world by QS World University Rankings
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div> -->
+
+                    </div>
+
+                    <!-- <div class="col-lg-6">
+
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Digital Transformation Consultant & Developer</h4>
+                                    <p class="text-brand mb-2">Recinsa (2023 - Present)</p>
+                                    <p class="mb-0">Developed their current website and updating their current technologies</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>iOS Developer</h4>
+                                    <p class="text-brand mb-2">Teknol (2020 - 2021)</p>
+                                    <p class="mb-0">Worked on the development of a Learning Management System iOS App with Swift, SwiftUI, Xcode and Firebase.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Applications developer</h4>
+                                    <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
+                                    <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+                </div>
+        </section>
         <!-- //ABOUT -->
 
         <!-- REVIEWS -->
-        <section id="reviews" class="full-height px-lg-5">
+        <!-- <section id="reviews" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
@@ -359,11 +420,11 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- //REVIEWS -->
 
         <!-- BLOG -->
-        <section id="blog" class="full-height px-lg-5">
+        <!-- <section id="blog" class="full-height px-lg-5">
             <div class="container">
 
                 <div class="row pb-4" data-aos="fade-up">
@@ -417,11 +478,11 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- //BLOG -->
 
         <!-- CONTACT -->
-        <section id="contact" class="full-height px-lg-5">
+        <section id="contact" class="smaller-height px-lg-5">
             <div class="container">
 
                 <div class="row justify-content-center text-center">
@@ -431,7 +492,10 @@
                         </h1>
                     </div>
 
-                    <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                    <h5 class="mt-4 mb-2">E-mail</h5>
+                    <p>santiaguirregdc@gmail.com</p>
+
+                    <!-- <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
                         <form action="#" class="row g-lg-3 gy-3">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" placeholder="Enter your name">
@@ -443,14 +507,15 @@
                                 <input type="text" class="form-control" placeholder="Enter subject">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                                <textarea name="" rows="4" class="form-control"
+                                    placeholder="Enter your message"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
                                 <button type="submit" class="btn btn-brand">Contact me</button>
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
@@ -462,14 +527,15 @@
             <div class="container">
                 <div class="row gy-4 justify-content-between">
                     <div class="col-auto">
-                        <p class="mb-0">Designed by <a href="#" class="fw-bold">SA7MAN</a></p>
+                        <p class="mb-0"><a href="#" class="fw-bold"></a></p>
                     </div>
                     <div class="col-auto">
                         <div class="social-icons">
-                            <a href="#"><i class="lab la-twitter"></i></a>
-                            <a href="#"><i class="lab la-instagram"></i></a>
-                            <a href="#"><i class="lab la-dribbble"></i></a>
-                            <a href="#"><i class="lab la-github"></i></a>
+                            <!-- <a href="#"><i class="lab la-twitter"></i></a> -->
+                            <a href="https://www.linkedin.com/in/santiagoagdc/"><i class="lab la-linkedin-in"></i></a>
+                            <!-- <a href="#"><i class="lab la-dribbble"></i></a> -->
+                            <a href="https://codepen.io/desert-dev"><i class="lab la-codepen"></i></a>
+                            <a href="https://github.com/santidevhmo"><i class="lab la-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -479,8 +545,6 @@
 
     </div>
     <!-- //CONTENT WRAPPER -->
-
-
 
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
