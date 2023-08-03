@@ -34,6 +34,7 @@
 }
 
 /* ==== Introduction Section ===== */
+
 #introText {
     font-family: 'SF Mono';
     font-weight: regular;
@@ -51,6 +52,38 @@
     font-size: 60px;
     line-height: 100%;
     color: #8892B1;
+}
+
+@media (max-width: 500px) {
+
+    #home {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #introText {
+        font-size: 1rem;
+        padding-bottom: 10px;
+    }
+
+    #name {
+        font-size: 60px;
+        padding-bottom: 10px;
+    }
+
+    #nameDescr {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    #introDescrText {
+        font-size: 15px;
+    }
+
+    #sendMailText {
+        font-size: 15px;
+    }
+
 }
 
 .lead {
@@ -138,6 +171,25 @@ img {
 /* NAVBAR */
 .navbar {
     background-color: var(--color-base);
+    padding-top: 20px;
+}
+
+@media (max-width: 563px) {
+    .navbar {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 840px) {
+    .navbar {
+        padding-left: 60px;
+    }
+}
+
+@media (min-width: 840px) {
+    .navbar {
+        padding-left: 200px;
+    }
 }
 
 .navbar .nav-link {
@@ -183,13 +235,6 @@ img {
     }
 }
 
-#navName {
-    padding-top: 15px;
-    font-family: 'SF Mono';
-    font-weight: regular;
-    color: var(--color-body);
-}
-
 /* BTN */
 .btn {
     padding: 12px 28px;
@@ -208,10 +253,6 @@ img {
     border-color: var(--color-special);
 }
 
-.link-custom {
-    font-weight: 500;
-    position: relative;
-}
 
 .link-custom::after {
     content: "";
