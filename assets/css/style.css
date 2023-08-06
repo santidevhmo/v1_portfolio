@@ -176,9 +176,16 @@ img {
 }
 
 /* NAVBAR */
+
+#profilePic {
+    height: 150px;
+    width: auto;
+}
+
 .navbar {
     background-color: var(--color-base);
     padding-top: 20px;
+    margin-right: 10px;
 }
 
 @media (max-width: 563px) {
@@ -195,7 +202,8 @@ img {
 
 @media (min-width: 840px) {
     .navbar {
-        padding-left: 200px;
+        padding-left: 50px;
+        padding-bottom: 100px;
     }
 }
 
